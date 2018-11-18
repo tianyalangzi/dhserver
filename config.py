@@ -17,6 +17,21 @@ settings = {
     #'xsrf_cookies':False,
     #'login_url':'/login',
     'debug':True,
+    # Vincent add manage session 
+    #'pycket': {
+    #	'engine':'redis',
+    #	'storage':{
+    #	   'host':'localhost',
+    #	   'port': 6379,
+    #	   'db_sessions':10,
+    # 	   'db_notifications':11,
+    #	   'max_connections':10000
+    #	},
+    #	'cookies':{
+    #	'expires_days':30
+    #	},
+
+    #},
 }
  
 # 日志
